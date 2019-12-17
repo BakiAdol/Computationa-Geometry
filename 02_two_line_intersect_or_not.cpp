@@ -22,8 +22,8 @@ int main()
     *   (y2-y1)*(a2-a1) == (x2-x1)*(b2-b1)
     */
 
-    if((y2-y1)*(a2-a1) == (x2-x1)*(b2-b1)) cout << "YES" << endl;
-    else cout << "NO" << endl;
+    if((y2-y1)*(a2-a1) == (x2-x1)*(b2-b1)) cout << "They will never intersect" << endl;
+    else cout << "They will intersect" << endl;
 
     return 0;
 }
