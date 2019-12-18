@@ -69,4 +69,19 @@ int main()
 * different side of second segment and segment two points are different side of
 * first segment
 *
+*
+*   If isLeft function return 0 or (x*(b-q) - y*(a - p) + (a*q - b*p))=0
+*   that means segment are
+*           
+*                  P(x,y)
+*             A(x,y)..................Q(x,y)
+*                   .
+*                   .
+*                   .
+*                   .
+*             B(x,y).
+*
+*   So we need to check Ax <= Px and Bx>= Px where Ax <= Bx 
+*   and Ay <= Py and By>=Py where Ay <= By
+*
 */
